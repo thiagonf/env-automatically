@@ -11,7 +11,7 @@ setuptools.setup(
     description="Tool extract environments from settings.py to .env file",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/thiagonf/env-automatically",
     packages=setuptools.find_packages(),
     entry_points ={ 
         'console_scripts': ['env-automaticaly=env_automatically.extract_env:main']}, 
